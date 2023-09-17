@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Blender-Pro-Book';
+    src: url('./Blender-Pro-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+header {
+    background-color: rgb(20, 14, 26);
+    height: 90px;
+    box-shadow: 0px 10px 20px rgb(255, 240, 36);
+}
+
+h1 {
+    font-family: 'Black Ops One'/* , sans-serif */;
+    color: rgb(255, 240, 36);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    text-shadow: #bdbdbd 0px 0px 10px;
+}
+
+img{
+    margin: 0 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(16, 192, 223);
+    width: 512px;
+    height: 512px;
+    background-color: rgb(20, 14, 26, 0.6);
+    box-shadow: 0 0 5px rgb(16, 192, 223), 0 0 5px rgb(16, 192, 223), 0 0 50px rgb(16, 192, 223), 0 0 20px rgb(16, 192, 223);
+}
+
+section {
+    background-color: rgb(20, 14, 26);
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://wallpapercave.com/wp/wp7370112.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    width: 512px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: rgb(20, 14, 26, 0.6);
+    color:rgb(16, 192, 223);
+    border: 3px solid rgb(16, 192, 223);
+    box-shadow: 0 0 5px rgb(16, 192, 223), 0 0 5px rgb(16, 192, 223), 0 0 50px rgb(16, 192, 223), 0 0 20px rgb(16, 192, 223);
+}
+
+button{
+    margin: 30px 0;
+    padding: 10px 20px;
+    border: 3px solid rgb(255, 240, 36);
+    background-color: rgb(20, 14, 26, 0.6);
+    color: rgb(255, 240, 36);
+    border-radius: 25px;
+    font-family: 'Blender-Pro-Book'/* , sans-serif */;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+button:hover{
+    background-color: rgb(255, 240, 36);
+    color: rgb(20, 14, 26);
+    box-shadow: 0 0 5px #FFFF33, 0 0 5px #FFFF33, 0 0 50px #FFFF33, 0 0 20px #FFFF33;
+}
+
+footer {
+    background-color: rgb(255, 235, 15);
+    height: 90px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Blender-Pro-Book'/* , sans-serif */;
+    font-size: 20px;
+}
