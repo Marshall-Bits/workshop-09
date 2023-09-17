@@ -1,10 +1,4 @@
-const myHeaders = new Headers();
-
-myHeaders.append("Content-Type", "application/json");
-
-
 const raw = (prompt) => {
-
     return JSON.stringify({
         "key": "",
         "prompt": prompt,
@@ -26,13 +20,6 @@ const raw = (prompt) => {
     });
 }
 
-const requestOptions = {
-    method: 'POST',
-    headers: myHeaders,
-    body: raw,
-    redirect: 'follow'
-};
-
 const imageResult = document.getElementById('image-result');
 
 const callAPI = () => {
@@ -41,7 +28,7 @@ const callAPI = () => {
     fetch("https://stablediffusionapi.com/api/v3/text2img", {
 
         method: 'POST',
-        headers: myHeaders,
+        headers: { "Content-Type": "application/json" },
         body: raw(prompt),
         redirect: 'follow'
 
