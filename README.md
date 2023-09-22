@@ -1,4 +1,4 @@
-# Introducción al desarrollo web
+![Header Image](header-image.PNG)
 
 Este es el repositorio del workshop realizado en Ironhack Barcelona.
 
