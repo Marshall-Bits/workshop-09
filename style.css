@@ -8,7 +8,7 @@
 
 /* Reiniciamos los valores que el navegador añade automáticamente */
 * {
-    margin: 0;
+    margin: 20px;
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
